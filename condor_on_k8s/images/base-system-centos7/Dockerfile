@@ -1,7 +1,7 @@
 # We will need GPU access in these images,
 # so base on nvidia/cuda, which is in turn
 # based on centos:7.
-FROM nvidia/cuda:10.1-cudnn7-devel-centos7
+FROM nvidia/cuda:11.0-cudnn8-devel-centos7
 
 MAINTAINER Claudio Kopper <kopper@ualberta.ca>
 
